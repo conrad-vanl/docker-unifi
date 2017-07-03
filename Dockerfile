@@ -20,8 +20,8 @@ RUN \
 	wget && \
 
 # fix execstack warning on library
- execstack -c \
-	/usr/lib/unifi/lib/native/Linux/amd64/libubnt_webrtc_jni.so && \
+# execstack -c \
+#	/usr/lib/unifi/lib/native/Linux/amd64/libubnt_webrtc_jni.so && \
 
 # cleanup
  apt-get clean && \
